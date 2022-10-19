@@ -31,3 +31,7 @@ const cardsData = getCardsData();
 //     answer: 'thisIsAVariable'
 //   }
 // ];
+// Create all cards
+function createCards() {
+  cardsData.forEach((data, index) => createCard(data, index));
+}
